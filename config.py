@@ -12,5 +12,5 @@ CHUNK_SIZE = 300
 CHUNK_OVERLAP = 10
 
 # 👇👇👇 加上这两行数据库配置 👇👇👇
-CHROMA_PATH = "/tmb/chroma_db"        # 向量库存哪个文件夹
+CHROMA_PATH = os.getenv("CHROMA_PATH ","./chroma_db")        # 向量库存哪个文件夹
 COLLECTION_NAME = "my_kb"          # 数据库里的集合名字

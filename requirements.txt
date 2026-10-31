@@ -3,3 +3,5 @@ python-dotenv
 dashscope
 chromadb
 streamlit
+langgraph
+langchain-openai
